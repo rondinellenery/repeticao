@@ -89,5 +89,38 @@ function mediaAritmetica() {
 
 function quantidadeNosIntervalos{
 
-    
+
 }
+
+function algoritmoEstruturado{
+    let valores ={primeiro: 3,
+        segundo:8,
+        terceiro:11,
+        quarto:12,
+        encerramento:0}
+
+    let par = 0;
+    let impar = 0;
+    let somaGeral = 0;
+    let pares = 0;
+    let quantidade = 0;
+
+    for(chave in valores){
+        let valor =valores[chave];
+        console.log(valor);
+        break;
+    }
+
+        quantidade++
+        somaGeral += valor;
+
+        if (valor %2 ===0){
+            par++
+            somaPares +=valor;
+        }else {
+            impar++
+        }
+        let mediaPares = somaPares / par;
+        let mediaGeral = somaGeral
+    }
+
